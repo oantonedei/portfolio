@@ -5,7 +5,13 @@ import Typed from "typed.js";
 const Hero = ({ mouse }) => {
   useEffect(() => {
     new Typed(".typed-subtitle", {
-      strings: ["UX/UI Designer and Front-end Director.", "Based in Kiev."],
+      strings: [
+        "Senior Software Engineer.",
+        "Specialized in Full-Stack Development.",
+        "Specialized in System Design.",
+        "Specialized in UI/UX Design.",
+        "Based in the United States.",
+      ],
       loop: true,
       typeSpeed: 80,
     });
@@ -15,8 +21,8 @@ const Hero = ({ mouse }) => {
       <div className="centrize full-width">
         <div className="vertical-center">
           <div className="started-content">
-            <div className="h-title glitch-effect" data-text="I'm John Doe">
-              I'm <span>John Doe</span>
+            <div className="h-title glitch-effect" data-text="I'm Antonedei Otoro">
+              I'm <span>Antonedei Otoro</span>
             </div>
             <span className="typed-subtitle" />
           </div>

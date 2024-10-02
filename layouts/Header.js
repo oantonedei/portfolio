@@ -22,33 +22,88 @@ const Header = ({ dark }) => {
         </a>
         <div className="logo">
           <Link href="/">
-            <img src={`/images/logo${dark ? "-dark" : ""}.png`} alt="logo" />
+            <img
+              src={`/images/logo-alt${dark ? "-dark" : ""}.png`}
+              alt="logo"
+            />
           </Link>
         </div>
         <div className="top-menu">
           <ul>
-            <li className={pathname.includes("home") || pathname == '/' ? "menu-item-has-children active" : "menu-item-has-children"}>
+            <li
+              className={
+                pathname.includes("home") || pathname == "/"
+                  ? "menu-item-has-children active"
+                  : "menu-item-has-children"
+              }
+            >
               <Link href={`/`} className={`lnk`}>
                 Home
               </Link>
               <ul className="sub-menu">
-                <li className={pathname.includes("home") || pathname == '/' ? "menu-item active" : "menu-item"}>
+                <li
+                  className={
+                    pathname.includes("home") || pathname == "/"
+                      ? "menu-item active"
+                      : "menu-item"
+                  }
+                >
                   <Link href="/">Home Default</Link>
                 </li>
-                <li className={pathname.includes("index-dark") ? "menu-item active" : "menu-item"}>
-                  <Link href="index-dark" target="_blank">Home Dark</Link>
+                <li
+                  className={
+                    pathname.includes("index-dark")
+                      ? "menu-item active"
+                      : "menu-item"
+                  }
+                >
+                  <Link href="index-dark" target="_blank">
+                    Home Dark
+                  </Link>
                 </li>
-                <li className={pathname.includes("index-rtl") ? "menu-item active" : "menu-item"}>
-                  <Link href="index-rtl" target="_blank">Home RTL</Link>
+                <li
+                  className={
+                    pathname.includes("index-rtl")
+                      ? "menu-item active"
+                      : "menu-item"
+                  }
+                >
+                  <Link href="index-rtl" target="_blank">
+                    Home RTL
+                  </Link>
                 </li>
-                <li className={pathname.includes("index-onepage") ? "menu-item active" : "menu-item"}>
-                  <Link href="index-onepage" target="_blank">Home Onepage</Link>
+                <li
+                  className={
+                    pathname.includes("index-onepage")
+                      ? "menu-item active"
+                      : "menu-item"
+                  }
+                >
+                  <Link href="index-onepage" target="_blank">
+                    Home Onepage
+                  </Link>
                 </li>
-                <li className={pathname.includes("index-onepage-dark") ? "menu-item active" : "menu-item"}>
-                  <Link href="index-onepage-dark" target="_blank">Home Onepage Dark</Link>
+                <li
+                  className={
+                    pathname.includes("index-onepage-dark")
+                      ? "menu-item active"
+                      : "menu-item"
+                  }
+                >
+                  <Link href="index-onepage-dark" target="_blank">
+                    Home Onepage Dark
+                  </Link>
                 </li>
-                <li className={pathname.includes("index-onepage-rtl") ? "menu-item active" : "menu-item"}>
-                  <Link href="index-onepage-rtl" target="_blank">Home Onepage RTL</Link>
+                <li
+                  className={
+                    pathname.includes("index-onepage-rtl")
+                      ? "menu-item active"
+                      : "menu-item"
+                  }
+                >
+                  <Link href="index-onepage-rtl" target="_blank">
+                    Home Onepage RTL
+                  </Link>
                 </li>
               </ul>
             </li>

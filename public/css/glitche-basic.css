@@ -156,6 +156,28 @@ body.loaded .section {
   width: 25%;
 }
 
+.row {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.col-6 {
+  width: 50%;
+}
+.success{
+  background: #f26b38;
+  color: #fff;
+  padding: 3px;
+  text-align: center;
+}
+@media (max-width: 768px) {
+
+  /* Adjust the breakpoint as needed */
+  .col-6 {
+    width: 100%;
+  }
+}
+
 @media (max-width: 840px) {
   .cols .col.col-sm {
     width: 100%;

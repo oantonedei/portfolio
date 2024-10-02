@@ -24,10 +24,10 @@ const Page = () => {
       <About />
       <Resume />
       <Skills />
-      <Services />
-      <Clients />
-      <RecentWorks />
-      <Blog />
+      {/* <Services /> */}
+      {/* <Clients /> */}
+      {/* <RecentWorks /> */}
+      {/* <Blog /> */}
       <ContactsInfo />
     </GlitcheLayout>
   );

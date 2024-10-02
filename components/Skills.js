@@ -4,20 +4,20 @@ export const DesignSkills = () => {
     <div className="section skills">
       <div className="content">
         <div className="title">
-          <div className="title_inner">Design Skills</div>
+          <div className="title_inner">Software Engineering Skills</div>
         </div>
         <div className="skills">
           <ul>
             <li>
-              <div className="name">Web Design</div>
+              <div className="name">System Design</div>
               <div className="progress">
-                <div className="percentage" style={{ width: "70%" }}>
-                  <span className="percent">70%</span>
+                <div className="percentage" style={{ width: "85%" }}>
+                  <span className="percent">85%</span>
                 </div>
               </div>
             </li>
             <li>
-              <div className="name">Illustrations</div>
+              <div className="name">Backend Development</div>
               <div className="progress">
                 <div className="percentage" style={{ width: "90%" }}>
                   <span className="percent">90%</span>
@@ -25,15 +25,15 @@ export const DesignSkills = () => {
               </div>
             </li>
             <li>
-              <div className="name">Photoshop</div>
+              <div className="name">Frontend Development</div>
               <div className="progress">
-                <div className="percentage" style={{ width: "75%" }}>
-                  <span className="percent">75%</span>
+                <div className="percentage" style={{ width: "80%" }}>
+                  <span className="percent">80%</span>
                 </div>
               </div>
             </li>
             <li>
-              <div className="name">Graphic Design</div>
+              <div className="name">UI/UX Design</div>
               <div className="progress">
                 <div className="percentage" style={{ width: "80%" }}>
                   <span className="percent">80%</span>
@@ -56,36 +56,36 @@ export const LanguagesSkills = () => {
     <div className="section skills">
       <div className="content">
         <div className="title">
-          <div className="title_inner">Languages Skills</div>
+          <div className="title_inner">SDLC Skills</div>
         </div>
         <div className="skills dotted">
           <ul>
             <li>
-              <div className="name">English</div>
+              <div className="name">Planning & Analysis</div>
               <div className="progress">
+                <div className="percentage" style={{ width: "85%" }}>
+                  <span className="percent">85%</span>
+                </div>
+              </div>
+            </li>
+            <li>
+              <div className="name">Design & Implementation</div>
+              <div className="progress ">
                 <div className="percentage" style={{ width: "90%" }}>
                   <span className="percent">90%</span>
                 </div>
               </div>
             </li>
             <li>
-              <div className="name">German</div>
+              <div className="name">Testing & Deployment</div>
               <div className="progress ">
-                <div className="percentage" style={{ width: "70%" }}>
-                  <span className="percent">70%</span>
+                <div className="percentage" style={{ width: "90%" }}>
+                  <span className="percent">90%</span>
                 </div>
               </div>
             </li>
             <li>
-              <div className="name">Italian</div>
-              <div className="progress ">
-                <div className="percentage" style={{ width: "55%" }}>
-                  <span className="percent">55%</span>
-                </div>
-              </div>
-            </li>
-            <li>
-              <div className="name">French</div>
+              <div className="name">Maintenance</div>
               <div className="progress ">
                 <div className="percentage" style={{ width: "85%" }}>
                   <span className="percent">85%</span>
@@ -100,9 +100,9 @@ export const LanguagesSkills = () => {
 };
 export const CodingSkills = () => {
   const skills = [
-    { id: 1, title: "WordPress", value: 90 },
-    { id: 2, title: "PHP / MYSQL", value: 75 },
-    { id: 3, title: "Angular / JavaScript", value: 85 },
+    { id: 1, title: "Java / JavaScript", value: 90 },
+    { id: 2, title: "NoSQL / SQL", value: 88 },
+    { id: 3, title: "Angular / React ", value: 90 },
     { id: 4, title: "HTML / CSS", value: 95 },
   ];
   return (
@@ -147,28 +147,28 @@ export const Knowledge = () => {
         <div className="skills list">
           <ul>
             <li>
-              <div className="name">Website hosting</div>
+              <div className="name">Website UI/UX design</div>
             </li>
             <li>
               <div className="name">iOS and android apps</div>
             </li>
             <li>
-              <div className="name">Create logo design</div>
+              <div className="name">Logo design</div>
             </li>
             <li>
-              <div className="name">Design for print</div>
+              <div className="name">App prototype design</div>
             </li>
             <li>
-              <div className="name">Modern and mobile-ready</div>
+              <div className="name">A/B testing for web applications</div>
             </li>
             <li>
-              <div className="name">Advertising services include</div>
+              <div className="name">Business development</div>
             </li>
             <li>
-              <div className="name">Graphics and animations</div>
+              <div className="name">Graphics design and animations</div>
             </li>
             <li>
-              <div className="name">Search engine marketing</div>
+              <div className="name">Search engine optimization</div>
             </li>
           </ul>
         </div>

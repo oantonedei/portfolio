@@ -6,36 +6,45 @@ const About = () => {
           <div className="title_inner">About Me</div>
         </div>
         <div className="image">
-          <img src="images/man1.jpg" alt="" />
+          <img src="images/profile.jpg" alt="" />
         </div>
         <div className="desc">
           <p>
-            Lorem ipsum dolor sit amet, in quodsi vulputate pro. Ius illum
-            vocent mediocritatem an, cule dicta iriure at. Ubique maluisset vel
-            te, his dico vituperata ut. Pro ei phaedrum maluisset. Ex audire
-            suavitate has, ei quodsi tacimates sapientem sed, pri zril ubique
-            ut. Te cule tation munere noluisse. Enim torquatos ne pri, eum
-            mollis salutandi corrumpit et, fugit apeirian duo ad.
+            I believe solutions to any technical problem can be easily generated
+            once the problem statement is fully understood.<br></br>
+            <br></br> Over the past 6 years, I have consistently demonstrated my
+            ability to generate performant solutions by deeply understanding the
+            problem statement at hand (both technical and non-technical). My
+            focus has been on identifying and resolving core technical issues
+            that hinder the optimal execution of essential business tasks
+            through the creation of software products or tools. I have
+            successfully led various projects through all phases of the SDLC,
+            architected the design and development of efficient & scalable
+            microservices, and developed customer journey maps, while leveraging
+            key insights from stakeholders to deliver feature updates and
+            software products with the use of modern technologies and tools.{" "}
+            <br></br>
+            <br></br>I enjoy collaborating with professionals across diverse
+            disciplines, and I thrive in constructive brainstorming sessions
+            with fellow developers and cross-functional teams, fostering an
+            environment of collaborative problem-solving.
           </p>
           <div className="info-list">
             <ul>
               <li>
-                <strong>Name:</strong> John Doe
+                <strong>Name:</strong> Antonedei Otoro
               </li>
               <li>
-                <strong>Age:</strong> 22 Years
+                <strong>Job:</strong> Senior Software Engineer
               </li>
-              <li>
-                <strong>Job:</strong> Web Developer
-              </li>
-              <li>
+              {/* <li>
                 <strong>Citizenship:</strong> Ukraine
+              </li> */}
+              <li>
+                <strong>Residence: </strong> Dallas, TX
               </li>
               <li>
-                <strong>Residence: </strong> Kiev
-              </li>
-              <li>
-                <strong>E-mail:</strong> johndoe@domain.com
+                <strong>E-mail:</strong> antonedei.otoro@engineer.com
               </li>
             </ul>
           </div>
